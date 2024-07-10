@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('background.jpg'); /* Replace 'background.jpg' with your actual image file */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Ensures the background image stays fixed as you scroll */
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: rgba(255, 255, 255, 0.9); /* Adding opacity to make text readable */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Rest of your existing CSS styles */
